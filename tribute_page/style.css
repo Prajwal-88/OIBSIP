@@ -1,0 +1,79 @@
+*,*::before,*::after{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(28, 28, 28);
+    min-height: 100vh;
+}
+header{
+    text-align: right;
+    padding-top: 14rem;
+    padding-right: 8rem;
+    margin-bottom: -1rem;
+    background-image: url(./assets/Albert-Einstein.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    line-height:2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ece9e9;
+    
+}
+main{
+    text-align: center;
+}
+h2{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img2{
+    margin-top: 2rem;
+    width: 20rem;
+    border: 5px solid antiquewhite;
+}
+.sec1p{
+    color: antiquewhite;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 26rem;
+    margin-top: 7rem;
+}
+.biography{
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+    border-bottom: 2px solid antiquewhite;
+}
+.Education{
+    padding: 5rem 5rem 0rem;
+    text-align: left;
+}
+.e2{
+    font-size: 2.5rem;
+}
+.sec2p{
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1.5rem;
+}
+.Achievements{
+    padding: 5rem 5rem 0rem;
+    text-align: left;
+}
+.legacy{
+    padding: 5rem 5rem ;
+    text-align: left;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid antiquewhite;
+}
+footer{
+    text-align: center;
+}
